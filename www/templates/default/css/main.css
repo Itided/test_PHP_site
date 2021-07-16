@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	padding: 0;
+	display: block;
+	background: url(/www/images/99.jpg) repeat;
+	background-size: cover;
+	min-height: 1000px;
+}
+
+tr:hover{
+	background: grey;
+}
+
+#header img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+#centerColumn img{
+	width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.img-garant{
+    width: 60px !important;
+    height: auto !important;
+}
+.addc{
+	font-size: 24px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none!important;
+    display: inline;
+}
+.card{
+	margin-left: 1%;
+}
+.card-header{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-garant-product{
+	top: -37px;
+    left: -708px;
+    position: relative;
+}
+
+.hideme{
+	display: none;
+}
+.aChild:before {
+		 content: "\0020 \0020 \2192 \0020";
+	     }
+#header{	
+	height: 90px;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 50px;
+	justify-content: space-evenly;
+    border-bottom: none!important;
+}
+
+#leftColumn{
+	width: 200px;
+	float: left;
+	white-space: nowrap;
+}
+
+main{
+	display: grid !important;
+    grid-template-columns: 17% 70% 13%;
+}
+#leftMenu, #loginBox, #registerBox{
+	padding-bottom: 20px;
+}
+#leftMenu a:hover{
+	background: yellow;
+}
+#cartCntItems{
+	position: relative;
+    left: -39px;
+    top: 11px;
+    font-size: 28px;
+    color: #ff2bb6;
+}
+.sss:hover{
+	transform: scale(1.1);
+	transition: all .8s;
+}
+#header a:hover{
+	text-decoration: none;
+}
+#centerColumn{
+	width: 900px;
+	
+}
+
+footer{
+	margin-top: 100px;
+    width: 100%;
+    height: 70px;
+    background: #333;
+    display: flex!important;
+}
+
+.menuCaption{
+	padding: 3px;
+	font-weight: bold;
+}
+
+.cartBox{
+	padding: 5px 0px 5px 0px;
+}
+
+.showHidden{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+#registerBoxHidden{
+	display: none;
+}
